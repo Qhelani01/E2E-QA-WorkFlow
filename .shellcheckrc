@@ -1,0 +1,19 @@
+# ShellCheck Configuration
+# https://www.shellcheck.net/
+
+# Enable optional checks
+enable=all
+
+# Disable specific checks if needed (format: disable=SC1234)
+# Common exclusions:
+# disable=SC1091 - Not following sourced files
+# disable=SC2086 - Double quote to prevent globbing
+
+# Source path for external scripts
+source-path=SCRIPTDIR
+
+# Severity level: all, error, warning, info, style
+severity=warning
+
+# Shell dialect (bash, sh, ksh, etc.)
+shell=bash

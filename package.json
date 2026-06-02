@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "shellcheck": "shellcheck .github/workflows/*.sh scripts/*.sh 2>/dev/null || true",
+    "shellcheck:fix": "shellcheck --format=json .github/workflows/*.sh scripts/*.sh 2>/dev/null | jq -r '.[] | .file + \":\" + (.line|tostring)' || true"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
