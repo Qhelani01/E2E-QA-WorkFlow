@@ -365,7 +365,12 @@ Create comprehensive test report:
 ## Step 7: Commit to Git (GitHub Integration)
 
 ### Objective
-Commit all test artifacts and results to the repository with proper documentation.
+Commit all test artifacts and results to the GitHub repository with proper documentation.
+
+### GitHub Repository
+**Repository:** https://github.com/Qhelani01/E2E-QA-WorkFlow.git  
+**Branch:** main  
+**Remote:** origin
 
 ### Artifacts to Commit
 ```
@@ -443,6 +448,16 @@ git commit -m "docs: Add final test report and execution results (SCRUM-101)
 - Git commits with proper documentation
 - Complete audit trail of testing activities
 - Traceable history for compliance/quality review
+- All artifacts pushed to GitHub: https://github.com/Qhelani01/E2E-QA-WorkFlow.git
+
+### Push to Remote
+```
+# After all local commits are complete, push to GitHub:
+git push origin main
+
+# Verify commits are visible on GitHub:
+# https://github.com/Qhelani01/E2E-QA-WorkFlow/commits/main
+```
 
 ---
 
